@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | GreenCross Pharmacy</title>
+    <link rel="stylesheet" href="/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="/" style="display: flex; align-items: center; gap: 0.5rem; color: var(--primary-color);">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+                    <span>GreenCross</span>
+                </a>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="/">Home</a>
+                <a href="/products.html" class="active" style="color: var(--primary-color);">Products</a>
+                <a href="/#services">Services</a>
+                <a href="/#pricing">Pricing</a>
+                <a href="/#contact">Contact</a>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="icon-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                </button>
+                <a href="/auth.html" class="btn-primary">Checkout</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Products Hero -->
+    <section class="section bg-alt" style="padding: 3rem 0;">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p class="muted">Browse our wide range of quality pharmaceutical and wellness products.</p>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="products" class="section">
+        <div class="container">
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1616671285410-9a405996639d?auto=format&fit=crop&q=80&w=400" alt="Vitamin C" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Supplements</div>
+                        <div class="product-name">Vitamin C 1000mg</div>
+                        <div class="product-price">$12.99</div>
+                        <button class="btn-primary btn-full">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400" alt="Thermometer" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Devices</div>
+                        <div class="product-name">Digital Thermometer</div>
+                        <div class="product-price">$24.50</div>
+                        <button class="btn-primary btn-full">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=400" alt="Sanitizer" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Personal Care</div>
+                        <div class="product-name">Hand Sanitizer</div>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn-primary btn-full">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80&w=400" alt="Masks" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Protection</div>
+                        <div class="product-name">Face Masks (50pcs)</div>
+                        <div class="product-price">$15.00</div>
+                        <button class="btn-primary btn-full">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=400" alt="Pain Relief" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Medicines</div>
+                        <div class="product-name">Pain Relief Gel</div>
+                        <div class="product-price">$8.45</div>
+                        <button class="btn-primary btn-full">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1550572017-ed950b551153?auto=format&fit=crop&q=80&w=400" alt="Cough Syrup" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Medicines</div>
+                        <div class="product-name">Herbal Cough Syrup</div>
+                        <div class="product-price">$11.20</div>
+                        <button class="btn-primary btn-full">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&q=80&w=400" alt="Skincare" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Personal Care</div>
+                        <div class="product-name">Moisturizing Lotion</div>
+                        <div class="product-price">$18.99</div>
+                        <button class="btn-primary btn-full">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=400" alt="First Aid" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">First Aid</div>
+                        <div class="product-name">First Aid Kit</div>
+                        <div class="product-price">$35.00</div>
+                        <button class="btn-primary btn-full">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="display: inline; margin-right: 0.5rem;"><path d="M12 5v14M5 12h14"/></svg>
+                        GreenCross
+                    </div>
+                    <p class="footer-desc">
+                        Your trusted neighborhood pharmacy providing quality healthcare products and professional advice for over 20 years.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/#about">About Us</a></li>
+                        <li><a href="/#services">Services</a></li>
+                        <li><a href="/#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Medicines</a></li>
+                        <li><a href="#">Wellness</a></li>
+                        <li><a href="#">Personal Care</a></li>
+                        <li><a href="#">Baby Care</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 GreenCross Pharmacy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
